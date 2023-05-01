@@ -1,0 +1,122 @@
+body{
+padding: 0;
+margin: 0;
+background-color: 
+#edf1fa;
+}
+@font-face {
+    font-family: "Inter";
+    src: url(Inter-Bold.ttf);
+  }
+@font-face {
+    font-family: "Inter";
+    src: url(Inter-Regular.ttf);
+  }
+  @font-face {
+    font-family: "Inter";
+    src: url(Inter-ExtraBold.ttf);
+  }
+.grid_container{
+    display: grid;
+    grid-template-columns: 270px 270px 255px 250px;
+    grid-template-rows: 280px 265px;
+    grid-gap: 33px;
+}
+.general_container{
+    padding: 15px;
+}
+.grid_item_1{
+    background-color: #733fc8;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 20px;
+    position: relative;
+
+}
+.grid_item_2{
+    background-color: 
+    #49556d;
+    border-radius: 20px;
+}
+.grid_item_3{
+    background-color: #ffffff;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 20px;
+
+}
+.grid_item_4{
+    background-color: #ffffff;
+    border-radius: 20px;
+   
+
+
+    
+
+}
+.grid_item_5{
+    background-color: 
+    #191f2d;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    border-radius: 20px;
+   
+}
+.card{
+    padding :15px;
+}
+.profile_img{
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    padding: 5px;
+    background-image: url("https://th.bing.com/th/id/R.d25ee4e73a9151543962af5e4e95b62e?rik=dfTMzLmKvW2IzA&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.profile_img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.profile_name{
+    color:white;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: lighter;
+
+}
+.profile_title{
+    color:#818d9b;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: lighter;
+}
+.card_title{
+    color:white;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: bold;
+}
+.card_desc{
+    color:#818d9b;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: light;
+}
+.black{
+    color:black;
+}
+.icon{
+   position:absolute;
+    color: white;
+    font-size:50px !important;
+    top: 15px;
+    left:70%;
+    opacity: 0.2;
+}
